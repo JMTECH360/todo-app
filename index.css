@@ -21,9 +21,12 @@ body{
     overflow: hidden;
     position: relative;
 }
-#title{
+#title {
     text-align: center;
     padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: bold;
 }
 
 #form{
@@ -118,6 +121,7 @@ body{
     width: 100%;
     font-size: 18px;
     font-family: arial;
+    text-transform: capitalize;
 }
 
 .message-success{
